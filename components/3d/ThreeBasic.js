@@ -1,8 +1,8 @@
 import * as T from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-import fragment from '../shaders/fragment.glsl';
-import vertex from '../shaders/vertex.glsl';
+import fragment from '@/shaders/fragment.glsl';
+import vertex from '@/shaders/vertex.glsl';
 
 const device = {
   width: window.innerWidth,
